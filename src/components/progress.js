@@ -19,7 +19,7 @@ class Progress extends Component {
             // must bind itself otherwise  it will make error
             <div className='components-progress' ref='progressBar' onClick={this.changeProgress.bind(this)}>
                 <div className='progress' style={{width:`${this.props.progress}%`,background:this.props.barColor}} >
-                    {this.props.currentTime}s
+                 
                 </div>
             </div>
         )
