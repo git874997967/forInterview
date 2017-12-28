@@ -1,0 +1,12 @@
+.components-progress{
+    margin-top:3px;
+    width: 100%;
+    height:3px;
+    background: gray;
+    cursor: pointer;
+
+}
+.progress{
+      width:20%;
+      height:3px;
+  }
