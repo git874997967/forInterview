@@ -71,8 +71,6 @@ class App extends Component {
             while (randomIndex === Index) {
                 randomIndex = this.randomRange(0, this.state.musicList.length - 1);
             }
-            console.log(Index + 'and' + randomIndex)
-
             this.setState({
                 currentMusitItem: this.state.musicList[randomIndex]
             })
